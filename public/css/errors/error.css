@@ -1,0 +1,27 @@
+.navbar-collapse .navbar-nav {
+  display: none;
+}
+main {
+  color: gray;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  text-align: center;
+}
+.code {
+  font-size: 4.5rem;
+  font-weight: 900;
+}
+.message {
+  font-size: 1.5rem;
+}
+.sub-message{
+  font-size: 1rem;
+}
+button{
+  font-size: 2rem;
+}

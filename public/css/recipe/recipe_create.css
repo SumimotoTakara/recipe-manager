@@ -1,0 +1,38 @@
+form {
+  width: 70%;
+}
+form .name-form {
+  width: 50%;
+}
+form .img-form {
+  width: 50%;
+}
+form .img-form span {
+  font-size: 0.5rem;
+}
+form .category-form {
+  width: 50%;
+}
+form button {
+  width: 25%;
+}
+@media (max-width: 899px) {
+  form {
+    width: 90%;
+  }
+  form .name-form {
+    width: 75%;
+  }
+
+  form .img-form {
+    width: 75%;
+  }
+  form .category-form {
+    width: 75%;
+  }
+}
+@media (max-width: 575.5px) {
+  form button {
+    width: 40%;
+  }
+}

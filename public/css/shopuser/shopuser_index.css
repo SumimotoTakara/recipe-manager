@@ -1,0 +1,11 @@
+.users-box {
+  width: 60%;
+  margin: 0 auto;
+}
+
+@media (max-width: 899px) {
+  .users-box {
+    width: 95%;
+    margin: 0 auto;
+  }
+}

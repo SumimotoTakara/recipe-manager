@@ -1,0 +1,47 @@
+main {
+  min-height: 660px;
+  padding-bottom: 70px;
+}
+main .search-box {
+  width: 50%;
+  margin: 0 auto;
+  background-color: transparent;
+}
+
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-gap: 10px;
+}
+.grid > .nav {
+  grid-column: 4 span;
+}
+.grid > .news {
+  grid-column: 8 span;
+}
+
+.nav-news {
+  width: 80%;
+  margin: 0 auto;
+}
+.news {
+  overflow: hidden;
+}
+
+@media (max-width: 899px) {
+  main .search-box {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .nav-news {
+    width: 90%;
+  }
+  .grid > .nav {
+    grid-column: 12 span;
+  }
+  .grid > .news {
+    grid-column: 12 span;
+    margin-top: 1rem;
+  }
+}

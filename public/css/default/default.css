@@ -1,0 +1,65 @@
+#app {
+  min-height: 100vh;
+  color: #43484d;
+  background-color: #e4e7f5;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-family: "Noto Sans JP", sans-serif;
+  overflow-x: hidden;
+}
+a:hover {
+  text-decoration: none !important;
+}
+.btn-clear {
+  border: none;
+  outline: none !important;
+  background: transparent;
+}
+
+header {
+  position: relative;
+  padding: 15px 20px 10px 20px;
+  background-image: url("http://xs055583.xsrv.jp/storage/images/common/cook.jpg");
+  background-size: cover;
+}
+
+header .logo {
+  display: inline-block;
+  font-family: "Montserrat";
+  font-size: 3rem;
+  letter-spacing: 1px;
+  font-weight: 700;
+  color: aliceblue;
+}
+
+header .user {
+  float: right;
+  color: aliceblue;
+  margin-top: 10px;
+  font-size: 1.4rem;
+}
+header .user li {
+  list-style: none;
+}
+header .user li a {
+  color: aliceblue;
+  padding: 0;
+}
+header .user li a:hover {
+  color: aliceblue;
+  background-color: transparent;
+  cursor: pointer;
+  opacity: 0.7;
+  text-decoration: none;
+}
+
+@media (max-width: 899px) {
+  header .logo {
+    display: block;
+    font-size: 2.5rem;
+  }
+
+  header .user {
+    margin: 0 0 10px 0;
+    font-size: 1rem;
+  }
+}

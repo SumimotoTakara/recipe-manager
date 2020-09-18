@@ -1,0 +1,108 @@
+html,
+#app {
+  min-height: 100vh;
+  color: #43484d;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-family: "Noto Sans JP", sans-serif;
+  overflow-x: hidden;
+}
+
+.top-right {
+  position: absolute;
+  right: 20px;
+  top: 18px;
+}
+
+.links > a {
+  display: inline-block;
+  cursor: pointer;
+  color: black;
+  border: 1px solid;
+  border-radius: 100vh;
+  padding: 0 25px;
+  font-size: 100%;
+  font-weight: 400;
+  letter-spacing: 0.1rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-left: 5px;
+}
+.links > a:hover {
+  color: black;
+  text-decoration: none;
+  opacity: 0.7;
+}
+
+.content .top-box {
+  height: 80vh;
+  background-image: url("http://xs055583.xsrv.jp/storage/images/common/restaurant.jpg");
+  background-size: cover;
+}
+
+.content .top-box .title {
+  color: aliceblue;
+  overflow: hidden;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.content .top-box .title h1 {
+  letter-spacing: 1.5px;
+  font-size: 8vw;
+  padding: 0 20px;
+  font-family: "Kite One", sans-serif;
+}
+
+.content .top-box .title li {
+  font-size: 1.1rem;
+  letter-spacing: 1.7px;
+  list-style: none;
+  line-height: 2.5rem;
+  font-weight: 300;
+}
+
+.container {
+  max-width: 100%;
+  margin-top: 100px;
+}
+
+footer {
+  margin-top: 150px;
+  padding: 10px 0;
+  background-color: #2d2d2d;
+  color: azure;
+  font-weight: 100;
+}
+footer small {
+  display: block;
+  text-align: center;
+}
+
+@media (max-width: 767px) {
+
+  .content .top-box {
+    height: 400px;
+  }
+  .content .top-box .title {
+    top: 40%;
+  }
+}
+@media (max-width: 575.5px) {
+  .links > a {
+    padding: 0 10px;
+  }
+  .content .top-box {
+    height: 200px;
+  }
+  .content .top-box .title {
+    top: 20%;
+  }
+  .content .top-box .title ul {
+    display: none;
+  }
+}

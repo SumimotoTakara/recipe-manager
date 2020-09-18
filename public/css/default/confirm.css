@@ -1,0 +1,33 @@
+.dg-main-content {
+  color: #43484d;
+  font-family: "Noto Sans JP", sans-serif;
+}
+.dg-title,
+.dg-content {
+  text-align: center;
+}
+.dg-content {
+  font-weight: 500;
+}
+.dg-content-footer button {
+  width: 40%;
+  color: white;
+  letter-spacing: 1.5px;
+}
+.dg-content-footer button:hover {
+  opacity: 0.7;
+}
+.dg-content-footer .dg-btn--cancel {
+  background-color: gray;
+  border-color: gray;
+}
+.dg-content-footer .dg-btn--ok {
+  background-color: #1f6ed4;
+  border-color: #1f6ed4;
+}
+@media (max-width: 575.5px) {
+  .dg-content-footer button {
+    width: 100%;
+    margin: 5px 0;
+  }
+}
