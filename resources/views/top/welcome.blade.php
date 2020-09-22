@@ -85,9 +85,6 @@
         this.$refs.logout.submit();
         },
       },
-      mounted() {
-        alert("メールアドレス:owner-a@test.com  パスワード:ownerowner  でログインしていただくと、シーティングされたお店のページにアクセスできます")
-      },
     });
   </script>
 </body>
