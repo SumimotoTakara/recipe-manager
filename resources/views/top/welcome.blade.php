@@ -85,7 +85,9 @@
         this.$refs.logout.submit();
         },
       },mounted() {
+        window.onload = function() {
         alert("サンプルデータをご用意しています。ログインへどうぞ");
+        };
       },
     });
   </script>
