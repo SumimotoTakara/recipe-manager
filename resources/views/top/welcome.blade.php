@@ -84,6 +84,8 @@
         logout() {
         this.$refs.logout.submit();
         },
+      },mounted() {
+        alert("サンプルデータをご用意しています。ログインへどうぞ");
       },
     });
   </script>

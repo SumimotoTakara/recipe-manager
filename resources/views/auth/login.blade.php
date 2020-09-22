@@ -80,6 +80,19 @@ RecipeManager
       </div>
     </div>
   </div>
+  <div class="row justify-content-center">
+    <div class="col-md-8">
+      <div class="card bg-white mt-5">
+        <p class="font-weight-bold text-success">シーティングされたデータにアクセスしていただくために</p>
+        <p class="font-weight-bold">レストランAのオーナー</p>
+        <p>メールアドレス:owner-a@test.com</p>
+        <p>パスワード:ownerowner</p>
+        <p class="font-weight-bold">レストランAのスタッフ</p>
+        <p>メールアドレス:staff1@test.com</p>
+        <p>パスワード:staffstaff1</p>
+      </div>
+    </div>
+  </div>
 </div>
 
 
