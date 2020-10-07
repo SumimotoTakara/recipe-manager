@@ -7,7 +7,7 @@ use App\Models\News;
 use Illuminate\Auth\Access\HandlesAuthorization;
 use Illuminate\Auth\Access\Response;
 
-class Newspolicy
+class NewsPolicy
 {
   use HandlesAuthorization;
 
