@@ -1,5 +1,5 @@
 <template>
-  <div id="example-2" class="carousel slide row" data-ride="carousel">
+  <div class="carousel slide row" data-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active">
         <img :src="resultImages[0].src" alt="First slide" />
@@ -46,16 +46,12 @@ export default {
         {
           src: "http://xs055583.xsrv.jp/storage/images/common/news.png",
         },
-        // { src: "" },
-        // { src: "" },
-        // { src: "" },
       ],
     };
   },
   computed: {
     resultImages() {
       let images = this.images;
-      //幅を見て変える
       return images;
     },
   },
