@@ -95,9 +95,9 @@
       },mounted() {
           this.mvShow = true;
           this.mvTitleShow =true;
-        // window.onload = function() {
-        // alert("サンプルデータをご用意しています。ログインへどうぞ");
-        // };
+        window.onload = function() {
+        alert("サンプルデータをご用意しています。ログインへどうぞ");
+        };
       },
 
     });
