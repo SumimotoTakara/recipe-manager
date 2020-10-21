@@ -45,13 +45,13 @@
         <div class="top">
           <div class="mv"></div>
           <transition name="fade">
-            <div v-if="mvTitleShow" class="title" v-clock>
+            <div v-clock v-if="mvTitleShow" class="title">
               <h1 class="mb-4">Recipe&nbsp;Manager</h1>
               <ul>
                 <li>お店のレシピをWeb上で管理しませんか？</li>
                 <li>
                   Recipe
-                  Managerは、お店のレシピをスタッフ全員で共有するためのサービスです。
+                  Managerは、お店のレシピをスタッフ全員で共有するためのサービスです
                 </li>
                 <li></li>
               </ul>
