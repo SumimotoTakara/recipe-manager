@@ -43,9 +43,9 @@
       <section>
         <h2 class="hidden">TOP-IMAGE</h2>
         <div class="top">
-          <div v-if="mvShow" class="mv"></div>
+          <div class="mv"></div>
           <transition name="fade">
-            <div v-if="mvTitleShow" class="title">
+            <div v-if="mvTitleShow" class="title" v-clock>
               <h1 class="mb-4">Recipe&nbsp;Manager</h1>
               <ul>
                 <li>お店のレシピをWeb上で管理しませんか？</li>
@@ -91,13 +91,8 @@
         this.$refs.logout.submit();
         },
       },mounted() {
-          this.mvShow = true;
           this.mvTitleShow =true;
-        window.onload = function() {
-        alert("サンプルデータをご用意しています。ログインへどうぞ");
-        };
       },
-
     });
   </script>
 </body>

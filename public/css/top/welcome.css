@@ -6,6 +6,9 @@ html,
   font-family: "Noto Sans JP", sans-serif;
   overflow-x: hidden;
 }
+[v-cloak] {
+  display: none;
+}
 
 .top-right {
   position: absolute;
@@ -35,7 +38,6 @@ html,
 }
 .top {
   height: auto;
-  background-color: lightgray;
   position: relative;
 }
 
@@ -43,9 +45,7 @@ html,
   height: 80vh;
   background-image: url("http://xs055583.xsrv.jp/storage/images/common/restaurant.jpg");
   background-size: cover;
-  position: relative;
 }
-
 
 .top .title {
   color: aliceblue;
@@ -66,7 +66,7 @@ html,
   opacity: 1;
 }
 .fade-enter-active {
-  transition: all 4s ease-in ;
+  transition: all 2.5s ease-in;
 }
 
 .top .title h1 {
