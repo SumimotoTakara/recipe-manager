@@ -45,15 +45,7 @@ html,
   background-size: cover;
   position: relative;
 }
-.slide-left-enter {
-  left: -100%;
-}
-.slide-left-enter-to {
-  left: 0;
-}
-.slide-left-enter-active {
-  transition: all 2.5s;
-}
+
 
 .top .title {
   color: aliceblue;

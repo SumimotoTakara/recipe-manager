@@ -43,9 +43,7 @@
       <section>
         <h2 class="hidden">TOP-IMAGE</h2>
         <div class="top">
-          <transition name="slide-left">
-            <div v-if="mvShow" class="mv"></div>
-          </transition>
+          <div v-if="mvShow" class="mv"></div>
           <transition name="fade">
             <div v-if="mvTitleShow" class="title">
               <h1 class="mb-4">Recipe&nbsp;Manager</h1>
