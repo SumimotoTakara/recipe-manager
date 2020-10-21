@@ -42,9 +42,12 @@
     <main>
       <section>
         <h2 class="hidden">TOP-IMAGE</h2>
-        <div class="content">
-          <div class="top-box">
-            <div class="title">
+        <div class="top">
+          <transition name="slide-left">
+            <div v-if="mvShow" class="mv"></div>
+          </transition>
+          <transition name="fade">
+            <div v-if="mvTitleShow" class="title">
               <h1 class="mb-4">Recipe&nbsp;Manager</h1>
               <ul>
                 <li>お店のレシピをWeb上で管理しませんか？</li>
@@ -55,13 +58,14 @@
                 <li></li>
               </ul>
             </div>
-          </div>
+          </transition>
+        </div>
       </section>
 
       <section>
         <h2 class="hidden">TOP-DETAILS</h2>
         <div class="detail">
-          <div class="container">
+          <div class="grid">
             <welcome-points-component></welcome-points-component>
             <welcome-carousel-component></welcome-carousel-component>
           </div>
@@ -80,15 +84,22 @@
   <script>
     new Vue({
       el: "#app",
+      data:{
+        mvShow:false,
+        mvTitleShow:false
+      },
       methods: {
         logout() {
         this.$refs.logout.submit();
         },
       },mounted() {
-        window.onload = function() {
-        alert("サンプルデータをご用意しています。ログインへどうぞ");
-        };
+          this.mvShow = true;
+          this.mvTitleShow =true;
+        // window.onload = function() {
+        // alert("サンプルデータをご用意しています。ログインへどうぞ");
+        // };
       },
+
     });
   </script>
 </body>
